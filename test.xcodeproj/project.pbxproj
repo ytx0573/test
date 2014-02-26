@@ -22,6 +22,8 @@
 		95EAADE718BDD87D00DA359D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95EAADC618BDD87D00DA359D /* UIKit.framework */; };
 		95EAADEF18BDD87D00DA359D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 95EAADED18BDD87D00DA359D /* InfoPlist.strings */; };
 		95EAADF118BDD87D00DA359D /* testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95EAADF018BDD87D00DA359D /* testTests.m */; };
+		95EAADFB18BDD89100DA359D /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95EAADFA18BDD89100DA359D /* SpriteKit.framework */; };
+		95EAADFE18BDD8DB00DA359D /* GameSence.m in Sources */ = {isa = PBXBuildFile; fileRef = 95EAADFD18BDD8DB00DA359D /* GameSence.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,9 @@
 		95EAADEC18BDD87D00DA359D /* testTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "testTests-Info.plist"; sourceTree = "<group>"; };
 		95EAADEE18BDD87D00DA359D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		95EAADF018BDD87D00DA359D /* testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testTests.m; sourceTree = "<group>"; };
+		95EAADFA18BDD89100DA359D /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		95EAADFC18BDD8DB00DA359D /* GameSence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameSence.h; sourceTree = "<group>"; };
+		95EAADFD18BDD8DB00DA359D /* GameSence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameSence.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95EAADFB18BDD89100DA359D /* SpriteKit.framework in Frameworks */,
 				95EAADC518BDD87D00DA359D /* CoreGraphics.framework in Frameworks */,
 				95EAADC718BDD87D00DA359D /* UIKit.framework in Frameworks */,
 				95EAADC318BDD87D00DA359D /* Foundation.framework in Frameworks */,
@@ -103,6 +109,7 @@
 		95EAADC118BDD87D00DA359D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				95EAADFA18BDD89100DA359D /* SpriteKit.framework */,
 				95EAADC218BDD87D00DA359D /* Foundation.framework */,
 				95EAADC418BDD87D00DA359D /* CoreGraphics.framework */,
 				95EAADC618BDD87D00DA359D /* UIKit.framework */,
@@ -118,6 +125,8 @@
 				95EAADD218BDD87D00DA359D /* AppDelegate.m */,
 				95EAADD418BDD87D00DA359D /* Main_iPhone.storyboard */,
 				95EAADD718BDD87D00DA359D /* Main_iPad.storyboard */,
+				95EAADFC18BDD8DB00DA359D /* GameSence.h */,
+				95EAADFD18BDD8DB00DA359D /* GameSence.m */,
 				95EAADDA18BDD87D00DA359D /* ViewController.h */,
 				95EAADDB18BDD87D00DA359D /* ViewController.m */,
 				95EAADDD18BDD87D00DA359D /* Images.xcassets */,
@@ -255,6 +264,7 @@
 			files = (
 				95EAADDC18BDD87D00DA359D /* ViewController.m in Sources */,
 				95EAADD318BDD87D00DA359D /* AppDelegate.m in Sources */,
+				95EAADFE18BDD8DB00DA359D /* GameSence.m in Sources */,
 				95EAADCF18BDD87D00DA359D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
