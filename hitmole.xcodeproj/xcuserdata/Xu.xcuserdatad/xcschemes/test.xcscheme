@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "95EAADBE18BDD87D00DA359D"
-               BuildableName = "test.app"
+               BuildableName = "hitmole.app"
                BlueprintName = "hitmole"
                ReferencedContainer = "container:hitmole.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "95EAADE218BDD87D00DA359D"
-               BuildableName = "testTests.xctest"
+               BuildableName = "hitmoleTests.xctest"
                BlueprintName = "hitmoleTests"
                ReferencedContainer = "container:hitmole.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "95EAADBE18BDD87D00DA359D"
-            BuildableName = "test.app"
+            BuildableName = "hitmole.app"
             BlueprintName = "hitmole"
             ReferencedContainer = "container:hitmole.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "95EAADBE18BDD87D00DA359D"
-            BuildableName = "test.app"
+            BuildableName = "hitmole.app"
             BlueprintName = "hitmole"
             ReferencedContainer = "container:hitmole.xcodeproj">
          </BuildableReference>
@@ -85,7 +85,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "95EAADBE18BDD87D00DA359D"
-            BuildableName = "test.app"
+            BuildableName = "hitmole.app"
             BlueprintName = "hitmole"
             ReferencedContainer = "container:hitmole.xcodeproj">
          </BuildableReference>
